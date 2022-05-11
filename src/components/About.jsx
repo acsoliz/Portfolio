@@ -17,9 +17,9 @@ const About = () => {
 					<div>
 						<p>
 							I'm passionate about programming. When I'm not studying or programming, I'm doing some of my
-							favorite activities, like training or dancing some tanguitos. I love doing useful and fun
-							things with programming, listening to different types of music, sharing with friends and
-							much more. .
+							favorite activities, like training or dancing some tanguitos and other dances. <br />
+							I love doing useful and fun things with programming, listening to different types of music,
+							sharing with friends and much more, just ask me! :D
 						</p>
 					</div>
 				</div>

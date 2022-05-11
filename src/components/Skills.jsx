@@ -9,6 +9,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import PostgresSql from '../assets/PostgresSQL.png';
 import Redux from '../assets/redux.png';
+import Git from '../assets/Git.png';
 
 const Skills = () => {
 	return (
@@ -41,6 +42,10 @@ const Skills = () => {
 						<p className="my-4">GITHUB</p>
 					</div>
 					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Git} alt="HTML icon" />
+						<p className="my-4">GIT</p>
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Node} alt="HTML icon" />
 						<p className="my-4">NODE JS</p>
 					</div>
@@ -48,10 +53,10 @@ const Skills = () => {
 						<img className="w-20 mx-auto" src={PostgresSql} alt="HTML icon" />
 						<p className="my-4">POSTGRES SQL</p>
 					</div>
-					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+					{/* <div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Redux} alt="HTML icon" />
 						<p className="my-4">REDUX</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

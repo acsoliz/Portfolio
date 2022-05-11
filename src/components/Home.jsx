@@ -1,5 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+var linkHenry = 'http:';
+var Link = 'http:';
 
 const Home = () => {
 	return (
@@ -10,8 +12,9 @@ const Home = () => {
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">Alan</h1>
 				<h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">I'm a full-stack developer</h2>
 				<p className="text-[#8892b0] py-4 max-w-[700px]">
-					this is a sort description. Apassionated for technology and live. x2..ad asdsa asdasd asdsadsa asdas
-					dasd as das das das da sd sa da sd sa das ssss s asdsadsadas asdasdsa
+					Hi, I'm Alan. I recently graduated as a FullStack Programmer from{' '}
+					<a href="http://www.soyhenry.com">www.soyhenry.com</a> I'm doing some personal projects and I'm
+					looking for my first Work as developer!
 				</p>
 				<div>
 					<button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
