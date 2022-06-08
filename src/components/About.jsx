@@ -3,17 +3,6 @@ import React from 'react';
 const About = () => {
 	return (
 		<div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-			   <iframe
-              //   width="560"
-              //   height="315"
-              src="https://www.youtube.com/embed/Q-GmSZmdQ9s?fs=1"
-              webkitallowfullscreen
-              mozallowfullscreen
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
 			<div className="flex flex-col justify-center items-center w-full h-full">
 				<div className="max-w-[1000px] w-full  grid grid-cols-2 gap-8">
 					<div className="sm:text-rigth pb-8 pl-4">
