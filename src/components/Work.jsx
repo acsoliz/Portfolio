@@ -5,6 +5,8 @@ import inProgress from "../assets/inProgress.jpg";
 import testapp from "../assets/test-app.png";
 import loginApp from "../assets/login.jpg";
 import listUsers from "../assets/listUsers.jpg";
+import Harryimg from "../assets/Harryimg.jpg"
+import HarryApp from "../assets/Harrylanding.jpg"
 
 const Work = () => {
   return (
@@ -35,6 +37,20 @@ const Work = () => {
           >
             <iframe
               src="https://www.youtube.com/embed/Q-GmSZmdQ9s?fs=1"
+              webKitAllowFullScreen
+              mozAllowFullScreen
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${HarryApp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <iframe
+              src="https://www.youtube.com/embed/reVdrDEpbsI?fs=1"
               webKitAllowFullScreen
               mozAllowFullScreen
               title="YouTube video player"
