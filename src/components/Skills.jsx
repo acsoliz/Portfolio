@@ -10,6 +10,9 @@ import Tailwind from '../assets/tailwind.png';
 import PostgresSql from '../assets/PostgresSQL.png';
 import Redux from '../assets/redux.png';
 import Git from '../assets/Git.png';
+import Aws from '../assets/aws.png';
+import TypeScript from '../assets/typescript.png';
+
 
 const Skills = () => {
 	return (
@@ -53,10 +56,22 @@ const Skills = () => {
 						<img className="w-20 mx-auto" src={PostgresSql} alt="HTML icon" />
 						<p className="my-4">POSTGRES SQL</p>
 					</div>
-					{/* <div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Redux} alt="HTML icon" />
 						<p className="my-4">REDUX</p>
-					</div> */}
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Aws} alt="HTML icon" />
+						<p className="my-4">AWS</p>
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+						<p className="my-4">AWS</p>
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
+						<p className="my-4">AWS</p>
+					</div>
 				</div>
 			</div>
 		</div>
