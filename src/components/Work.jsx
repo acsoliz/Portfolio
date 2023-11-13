@@ -26,7 +26,7 @@ const Work = () => {
             <iframe
               src="https://www.youtube.com/embed/t6lC4yzAeh4?fs=1"
               title="YouTube video player"
-              frameborder="0"
+              // frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -37,10 +37,10 @@ const Work = () => {
           >
             <iframe
               src="https://www.youtube.com/embed/Q-GmSZmdQ9s?fs=1"
-              webKitAllowFullScreen
-              mozAllowFullScreen
+              // webKitAllowFullScreen
+              // mozAllowFullScreen
               title="YouTube video player"
-              frameborder="0"
+              // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -51,10 +51,10 @@ const Work = () => {
           >
             <iframe
               src="https://www.youtube.com/embed/reVdrDEpbsI?fs=1"
-              webKitAllowFullScreen
-              mozAllowFullScreen
+              // webKitAllowFullScreen
+              // mozAllowFullScreen
               title="YouTube video player"
-              frameborder="0"
+              // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
