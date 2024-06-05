@@ -12,14 +12,22 @@ const About = () => {
 				</div>
 				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
 					<div className="sm:text-right text-4xl font-bold ">
-						<p>Hi, I'm Alan, nice to meet you. Please take a look around</p>
+						<p>Nice to meet you. Please take a look around</p>
 					</div>
 					<div>
 						<p>
-							I'm passionate about programming. When I'm not studying or programming, I'm doing some of my
-							favorite activities, like training or dancing some tanguitos and other dances. <br />
-							I love doing useful and fun things with programming, listening to different types of music,
-							sharing with friends and much more, just ask me! :D
+							I am a passionate programmer from Argentina with a strong background in both front-end and back-end development.
+							<br />
+						</p><br />
+						<p>
+
+							Currently based in Pamplona, Spain, I am open to relocating for hybrid work opportunities that allow me to continue my passion for programming while exploring new places.
+						</p>
+						<br />
+						<p>
+
+							I enjoy traveling and am always eager to immerse myself in different cultures and experiences.
+							<br />
 						</p>
 					</div>
 				</div>

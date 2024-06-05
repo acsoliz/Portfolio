@@ -12,6 +12,8 @@ import Redux from '../assets/redux.png';
 import Git from '../assets/Git.png';
 import Aws from '../assets/aws.png';
 import TypeScript from '../assets/typescript.png';
+import Sveltekit from '../assets/svelte.png';
+import Azure from '../assets/azure.png';
 
 
 const Skills = () => {
@@ -71,6 +73,14 @@ const Skills = () => {
 					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
 						<p className="my-4">TypeScript</p>
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Azure} alt="HTML icon" />
+						<p className="my-4">Azure</p>
+					</div>
+					<div className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Sveltekit} alt="HTML icon" />
+						<p className="my-4">SvelteKit</p>
 					</div>
 				</div>
 			</div>

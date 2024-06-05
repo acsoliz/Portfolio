@@ -7,6 +7,7 @@ import loginApp from "../assets/login.jpg";
 import listUsers from "../assets/listUsers.jpg";
 import Harryimg from "../assets/Harryimg.jpg"
 import HarryApp from "../assets/Harrylanding.jpg"
+import Svelt from "../assets/svelte.jpg"
 
 const Work = () => {
   return (
@@ -60,25 +61,25 @@ const Work = () => {
             ></iframe>
           </div>
           <div
-            style={{ backgroundImage: `url(${inProgress})` }}
+            style={{ backgroundImage: `url(${Svelt})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className=" text-center opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                not yet available
+                Svelt project - In progress
               </span>
 
-              <div className="pt-8 text-center">
-                <a href="/">
+              <div className="pt-8">
+                <a href="https://ba5f10c7.alerts-app.pages.dev/" target="_blank" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                {/* <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

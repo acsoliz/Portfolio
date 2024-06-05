@@ -6,7 +6,7 @@ import Logo from '../assets/Profile.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
-	const [ nav, setNav ] = useState(false);
+	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -47,14 +47,14 @@ const Navbar = () => {
 			<div onClick={handleClick} className="md:hidden z-10">
 				{
 					!nav ? <FaBars /> :
-					<FaTimes />}
+						<FaTimes />}
 			</div>
 
 			{/* mobile menu */}
 			<ul
 				className={
 
-						!nav ? 'hidden' :
+					!nav ? 'hidden' :
 						' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
 				}
 			>
@@ -115,7 +115,7 @@ const Navbar = () => {
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300 "
-							href="https://drive.google.com/file/d/1lauEPN6vkMoj_pwzoJmj5BYX9yq_fVj8/view?usp=sharing"
+							href="https://drive.google.com/file/d/1gZAy8fmRFs-SAAQ2UNcZC7cpH1XA9I9b/view?usp=sharing"
 						>
 							curriculum <BsFillPersonLinesFill size={30} />
 						</a>
