@@ -16,16 +16,15 @@ const About = () => {
 					</div>
 					<div>
 						<p>
-							I am a passionate programmer from Argentina with a strong background in both front-end and back-end development.
+							I am an Argentian passionate programmer with a strong background in front-end and back-end development.
 							<br />
 						</p><br />
 						<p>
 
-							Currently based in Pamplona, Spain, I am open to relocating for hybrid work opportunities that allow me to continue my passion for programming while exploring new places.
+							Currently based in Pamplona, Spain. I am open to relocating for hybrid work opportunities that allow me to continue my passion for programming while exploring new places.
 						</p>
 						<br />
 						<p>
-
 							I enjoy traveling and am always eager to immerse myself in different cultures and experiences.
 							<br />
 						</p>
