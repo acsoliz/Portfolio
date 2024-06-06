@@ -15,6 +15,9 @@ import TypeScript from '../assets/typescript.png';
 import Sveltekit from '../assets/svelte.png';
 import Azure from '../assets/azure.png';
 import Supabase from '../assets/supabase.png';
+import Mongo from '../assets/mongo.png';
+import Nginx from '../assets/nginx.png';
+import Docker from '../assets/docker-logos/docker.png';
 
 
 const Skills = () => {
@@ -22,18 +25,22 @@ const Skills = () => {
 		{ name: 'HTML', icon: HTML },
 		{ name: 'CSS', icon: CSS },
 		{ name: 'JavaScript', icon: JavaScript },
+		{ name: 'TypeScript', icon: TypeScript },
 		{ name: 'React', icon: ReactImg },
+		{ name: 'Redux', icon: Redux },
+		{ name: 'SvelteKit', icon: Sveltekit },
+		{ name: 'Tailwind', icon: Tailwind },
+		{ name: 'Node.JS', icon: Node },
+		{ name: 'Mongo', icon: Mongo },
+		{ name: 'PostgresSql', icon: PostgresSql },
+		{ name: 'Supabase', icon: Supabase },
+		{ name: 'Aws', icon: Aws },
+		{ name: 'Azure', icon: Azure },
 		{ name: 'GitHub', icon: GitHub },
 		{ name: 'Git', icon: Git },
-		{ name: 'Node.JS', icon: Node },
-		{ name: 'PostgresSql', icon: PostgresSql },
-		{ name: 'Redux', icon: Redux },
-		{ name: 'Aws', icon: Aws },
-		{ name: 'Tailwind', icon: Tailwind },
-		{ name: 'TypeScript', icon: TypeScript },
-		{ name: 'Azure', icon: Azure },
-		{ name: 'Supabase', icon: Supabase },
-		{ name: 'SvelteKit', icon: Sveltekit },
+		{ name: 'Nginx', icon: Nginx },
+		{ name: 'Docker', icon: Docker },
+
 	];
 	return (
 		<div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
@@ -44,15 +51,11 @@ const Skills = () => {
 					<p className="py-4">// these are the technologies I've worked with</p>
 				</div>
 
-				<div className="w-full grid grid-cols-5 gap-5 text-center py-8">
-
+				<div className="w-full grid grid-cols-6 gap-6 text-center py-8">
 					{skills.map((skill, index) => (
 						<div key={index} className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500 flex flex-col " >
-
 							<img className="w-20 h-20 mx-auto" src={skill.icon} alt={`${skill.name} icon`} />
-
 							<p className="my-4">{skill.name}</p>
-
 						</div>
 					))}
 				</div>
