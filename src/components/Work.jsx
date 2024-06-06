@@ -27,7 +27,6 @@ const Work = () => {
             <iframe
               src="https://www.youtube.com/embed/t6lC4yzAeh4?fs=1"
               title="YouTube video player"
-              // frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -52,10 +51,7 @@ const Work = () => {
           >
             <iframe
               src="https://www.youtube.com/embed/reVdrDEpbsI?fs=1"
-              // webKitAllowFullScreen
-              // mozAllowFullScreen
               title="YouTube video player"
-              // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -75,11 +71,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a> */}
+
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -17,11 +17,12 @@ import Azure from '../assets/azure.png';
 import Supabase from '../assets/supabase.png';
 import Mongo from '../assets/mongo.png';
 import Nginx from '../assets/nginx.png';
-import Docker from '../assets/docker-logos/docker.png';
+import Docker from '../assets/docker.png';
 
 
 const Skills = () => {
-	const skills = [
+	// Memorizar la lista de skills
+	const skills = useMemo(() => [
 		{ name: 'HTML', icon: HTML },
 		{ name: 'CSS', icon: CSS },
 		{ name: 'JavaScript', icon: JavaScript },
@@ -41,7 +42,17 @@ const Skills = () => {
 		{ name: 'Nginx', icon: Nginx },
 		{ name: 'Docker', icon: Docker },
 
-	];
+	], []);
+
+
+	const renderedSkills = useMemo(() => {
+		return skills.map((skill) => (
+			<div key={skill.name} className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500 flex flex-col">
+				<img className="w-20 h-20 mx-auto" src={skill.icon} alt={`${skill.name} icon`} />
+				<p className="my-4">{skill.name}</p>
+			</div>
+		));
+	}, [skills]);
 	return (
 		<div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
 			{/* Container */}
@@ -52,12 +63,7 @@ const Skills = () => {
 				</div>
 
 				<div className="w-full grid grid-cols-6 gap-6 text-center py-8">
-					{skills.map((skill, index) => (
-						<div key={index} className="shadow-sm shadow-[$040c16] hover:scale-110 duration-500 flex flex-col " >
-							<img className="w-20 h-20 mx-auto" src={skill.icon} alt={`${skill.name} icon`} />
-							<p className="my-4">{skill.name}</p>
-						</div>
-					))}
+					{renderedSkills}
 				</div>
 			</div>
 		</div>
