@@ -16,7 +16,7 @@ const About = () => {
 					</div>
 					<div>
 						<p>
-							I am an Argentian passionate programmer with a strong background in front-end and back-end development.
+							I am from Argentinian an passionate programmer with a strong background in front-end and back-end development.
 							<br />
 						</p><br />
 						<p>
